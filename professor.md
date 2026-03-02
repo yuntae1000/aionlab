@@ -7,9 +7,7 @@ permalink: /people/professor/
 <div style="display:flex; gap:30px; flex-wrap:wrap; align-items:flex-start;">
 
 <div>
-<img src="{{ '/assets/people/jake.jpg'}}" alt="Yoontae Jung" width="150"/>
-</div>
-
+<img src="{{ '/assets/people/jake.jpg' | relative_url }}" width="150" /></div>
 <div style="flex:1; min-width:250px;">
 
 # Yoontae Jung  
