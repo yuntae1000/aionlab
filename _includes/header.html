@@ -1,6 +1,8 @@
 <header class="site-header" role="banner">
   <div class="wrapper">
-    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">
+      {{ site.title | escape }}
+    </a>
 
     <nav class="site-nav">
       <input type="checkbox" id="nav-trigger" class="nav-trigger" />
@@ -15,19 +17,27 @@
       </label>
 
       <div class="trigger">
+
         <a class="page-link" href="{{ '/research' | relative_url }}">Research</a>
         <a class="page-link" href="{{ '/publications' | relative_url }}">Publications</a>
 
-      <!-- People dropdown (hover on desktop) -->
-      <div class="dropdown">
-        <a class="page-link dropdown-toggle" href="{{ '/people' | relative_url }}">People ▾</a>
-        <div class="dropdown-menu">
-          <a class="dropdown-item" href="{{ '/people/professor/' | relative_url }}">Professor</a>
-          <a class="dropdown-item" href="{{ '/people/students/' | relative_url }}">Students</a>
+        <!-- People Dropdown -->
+        <div class="dropdown">
+          <a class="page-link dropdown-toggle" href="{{ '/people' | relative_url }}">
+            People ▾
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="{{ '/people/professor/' | relative_url }}">
+              Professor
+            </a>
+            <a class="dropdown-item" href="{{ '/people/students/' | relative_url }}">
+              Students
+            </a>
+          </div>
         </div>
-      </div>
 
         <a class="page-link" href="{{ '/contact' | relative_url }}">Contact</a>
+
       </div>
     </nav>
   </div>
