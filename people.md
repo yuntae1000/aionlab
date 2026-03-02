@@ -3,11 +3,11 @@ layout: page
 title: People
 ---
 
-## Director
+## Principal Investigator
 
 <div class="aion-people-grid">
   <div class="aion-card aion-person">
-    <img src="assets/people/yoontae.jpg" alt="Yoontae Jung">
+    <img src="assets/people/jake.jpg" alt="Yoontae Jung">
     <h3>Yoontae Jung</h3>
     <p>
       Assistant Professor, Kyung Hee University (KHU)<br/>
