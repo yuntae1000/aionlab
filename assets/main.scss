@@ -129,3 +129,9 @@ a{
     display: block; /* 모바일은 항상 보이게 */
   }
 }
+
+/* ===== Fix: keep header bar fully dark (including wrapper) ===== */
+.site-header,
+.site-header .wrapper{
+  background: var(--aion-dark) !important;
+}
