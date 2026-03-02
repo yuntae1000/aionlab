@@ -5,44 +5,43 @@ title: People
 
 ## Director
 
-<img src="assets/people/jake.jpg" alt="Yoontae Jake Jung" width="180"/>
+<div class="aion-people-grid">
+  <div class="aion-card aion-person">
+    <img src="assets/people/yoontae.jpg" alt="Yoontae Jung">
+    <h3>Yoontae Jung</h3>
+    <p>
+      Assistant Professor, Kyung Hee University (KHU)<br/>
+      Analog/Mixed-Signal IC · Neural Interface IC · Physical AI Sensor IC · PIM
+    </p>
+    <p class="small">
+      Email: <a href="mailto:yoontaejake.jung@khu.ac.kr">yoontaejake.jung@khu.ac.kr</a><br/>
+      GitHub: <a href="https://github.com/yuntae1000">yuntae1000</a>
+    </p>
+  </div>
 
-### Prof. Yoontae Jake Jung
-- Assistant Professor, Kyung Hee University (KHU)
-- Interests: Analog/Mixed-Signal IC, Neural Interface, CIM/PIM, AIoT
+  <div class="aion-card">
+    <h3>Join AION Lab</h3>
+    <p>
+      We are recruiting <b>PhD/MS</b> students interested in analog/mixed-signal IC design.
+    </p>
+    <ul>
+      <li>Neural recording/stimulation ICs</li>
+      <li>ΔΣ ADC / NS-SAR / time-based converters</li>
+      <li>Sensor interface ICs for physical AI</li>
+      <li>Process/Compute-in-Memory</li>
+    </ul>
+    <p>
+      <a class="aion-btn primary" href="mailto:yoontaejake.jung@khu.ac.kr?subject=AION%20Lab%20Application">Apply via Email</a>
+    </p>
+    <p class="small">Send CV + transcript + brief research interests.</p>
+  </div>
+</div>
 
 ---
 
-## Graduate Students
+## Students
+- (Add here as you recruit: photo, name, program, topic)
 
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;">
-
-<div style="border:1px solid #ddd;padding:12px;border-radius:12px;">
-  <img src="assets/people/student1.jpg" alt="Student 1" width="140" />
-  <h3>Student Name</h3>
-  <ul>
-    <li>'26.03 ~ present (MS/PhD)</li>
-    <li>Topic: e.g., Low-noise neural AFE + ΔΣ ADC</li>
-  </ul>
-</div>
-
-<div style="border:1px solid #ddd;padding:12px;border-radius:12px;">
-  <img src="assets/people/student2.jpg" alt="Student 2" width="140" />
-  <h3>Student Name</h3>
-  <ul>
-    <li>'26.03 ~ present (MS/PhD)</li>
-    <li>Topic: e.g., Mixed-signal CIM/PIM for edge AI</li>
-  </ul>
-</div>
-
-</div>
-
----
-
-## Undergraduate Students
-- (Add)
-
----
-
-## Alumni
-- (Add)
+## Collaborations
+- imec (Leuven, Belgium) — Analog Biomed team experience
+- KAIST (IMPACT Lab) — neural interface & sensor interface IC research :contentReference[oaicite:9]{index=9}
