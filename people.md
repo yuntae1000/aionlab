@@ -1,16 +1,11 @@
----
-layout: page
-title: People
----
+## Lab Philosophy
 
-<div style="display:flex; gap:20px; flex-wrap:wrap; margin-top:20px;">
+We believe in:
 
-<a href="{{ '/professor' | relative_url }}" class="aion-btn primary">
-  Professor
-</a>
+- Deep understanding of analog fundamentals
+- System-level thinking beyond transistor-level design
+- Bridging circuits and AI intelligence
+- Research with global impact
 
-<a href="{{ '/students' | relative_url }}" class="aion-btn">
-  Students
-</a>
-
-</div>
+We train students to become independent mixed-signal IC designers
+with strong intuition and implementation skills.
