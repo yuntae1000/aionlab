@@ -1,0 +1,81 @@
+---
+---
+
+@import "minima";
+
+/* ===== AION Lab custom polish ===== */
+:root{
+  --aion-accent: #22d3ee;
+  --aion-dark: #0b1020;
+  --aion-card: rgba(255,255,255,.06);
+  --aion-border: rgba(255,255,255,.12);
+}
+
+.site-header{ border-top:0; background: rgba(11,16,32,.75); backdrop-filter: blur(10px); }
+.site-title, .site-nav .page-link{ color: #e8eefc !important; }
+.site-nav .page-link:hover{ color: var(--aion-accent) !important; text-decoration: none; }
+
+.wrapper{ max-width: 1050px; }
+.page-content{ background: linear-gradient(180deg, var(--aion-dark), #070a10); color:#e8eefc; min-height: 70vh; }
+.post-content, .page-content p, .page-content li{ color: rgba(232,238,252,.85); }
+
+a{ color: var(--aion-accent); }
+a:hover{ opacity: .9; }
+
+.aion-hero{
+  padding: 44px 0 18px;
+  border-bottom: 1px solid var(--aion-border);
+}
+.aion-hero h1{
+  font-size: 40px;
+  line-height: 1.08;
+  margin: 0 0 10px;
+}
+.aion-sub{ color: rgba(232,238,252,.75); font-size: 16px; line-height: 1.7; margin: 0 0 14px; }
+
+.aion-chips{ display:flex; flex-wrap:wrap; gap:10px; margin: 10px 0 18px; }
+.aion-chip{
+  font-size: 12px; padding: 7px 10px; border-radius: 999px;
+  border: 1px solid var(--aion-border); background: rgba(255,255,255,.04);
+}
+
+.aion-btn{
+  display:inline-block; padding:10px 14px; border-radius:12px;
+  border:1px solid var(--aion-border);
+  background: rgba(255,255,255,.03);
+  text-decoration:none !important;
+  color:#e8eefc !important;
+}
+.aion-btn.primary{
+  background: rgba(34,211,238,.14);
+  border-color: rgba(34,211,238,.35);
+}
+.aion-btn:hover{ transform: translateY(-1px); }
+
+.aion-grid{ display:grid; grid-template-columns: 1.2fr .8fr; gap: 14px; }
+.aion-cards{ display:grid; grid-template-columns: repeat(3, 1fr); gap:14px; }
+.aion-card{
+  background: var(--aion-card);
+  border: 1px solid var(--aion-border);
+  border-radius: 16px;
+  padding: 16px;
+  box-shadow: 0 10px 24px rgba(0,0,0,.25);
+}
+.aion-card h3{ margin-top: 0; }
+
+.aion-people-grid{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 14px;
+}
+.aion-person img{
+  width: 140px; height: 140px; object-fit: cover;
+  border-radius: 16px; border: 1px solid var(--aion-border);
+}
+.small{ font-size: 12px; color: rgba(232,238,252,.65); }
+
+@media (max-width: 900px){
+  .aion-grid{ grid-template-columns: 1fr; }
+  .aion-cards{ grid-template-columns: 1fr; }
+  .aion-hero h1{ font-size: 32px; }
+}
