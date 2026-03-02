@@ -6,24 +6,29 @@ permalink: /people/professor/
 
 <div style="display:flex; gap:30px; flex-wrap:wrap; align-items:flex-start;">
 
-<div>
-<img src="{{ '/assets/people/jake.jpg' | relative_url }}" width="150" /></div>
-<div style="flex:1; min-width:250px;">
+  <div>
+    <img src="{{ '/assets/people/jake.jpg' | relative_url }}" alt="Yoontae Jung" width="150"/>
+  </div>
 
-# Yoontae Jung  
+  <div style="flex:1; min-width:260px;">
+    <h1 style="margin-top:0; margin-bottom:6px;">Yoontae Jung</h1>
+    <p style="margin:0 0 10px;">
+      Assistant Professor<br/>
+      Kyung Hee University (KHU)<br/>
+      <span class="small">Director, AION Lab — AI-On-Chip Neuro-Intelligent Circuits Laboratory</span>
+    </p>
 
-Assistant Professor  
-Kyung Hee University (KHU)  
+    <p style="margin:0 0 10px;">
+      <b>Email:</b> <a href="mailto:yoontaejake.jung@khu.ac.kr">yoontaejake.jung@khu.ac.kr</a><br/>
+      <b>Google Scholar:</b> <a href="https://scholar.google.co.kr/citations?user=oYBU_jkAAAAJ&hl=en" target="_blank" rel="noopener">Profile</a><br/>
+      <b>GitHub:</b> <a href="https://github.com/yuntae1000" target="_blank" rel="noopener">yuntae1000</a>
+    </p>
 
-Principal Investigator, AION Lab — AI-On-Chip Neuro-Intelligent Circuits Laboratory  
-
-**Email:** yoontaejake.jung@khu.ac.kr  
-**Google Scholar:** https://scholar.google.co.kr/citations?user=oYBU_jkAAAAJ&hl=en  
-
-**Research Areas:**  
-Analog / Mixed-Signal IC · Neural Interface IC · Data Converters · Physical AI Sensor IC · Process-in-Memory (PIM/CIM)  
-
-</div>
+    <p style="margin:0;">
+      <b>Research Areas:</b><br/>
+      Analog / Mixed-Signal IC · Neural Interface IC · Data Converters · Physical AI Sensor IC · Process-in-Memory (PIM/CIM)
+    </p>
+  </div>
 
 </div>
 
