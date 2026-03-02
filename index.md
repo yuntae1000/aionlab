@@ -27,7 +27,7 @@ title: Home
       </p>
 
       <p class="small">
-        Director: <b>Yoontae Jung</b> · Dept. of Semiconductor Engineering / College of Electronics & Informations, KHU
+        PI: <b>Yoontae Jung</b> · Dept. of Semiconductor Engineering / College of Electronics & Informations, KHU
       </p>
     </div>
 
