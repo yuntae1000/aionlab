@@ -7,7 +7,7 @@ title: People
 
 <div class="aion-people-grid">
   <div class="aion-card aion-person">
-    <img src="assets/people/jake.jpg" alt="Yoontae Jung">
+    <img src="assets/people/jake.jpg" alt="Yoontae Jung" style="width:150px;">
     <h3>Yoontae Jung</h3>
     <p>
       Assistant Professor, Kyung Hee University (KHU)<br/>
