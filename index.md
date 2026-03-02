@@ -15,8 +15,8 @@ title: Home
       <div class="aion-chips">
         <span class="aion-chip">Analog / Mixed-Signal IC</span>
         <span class="aion-chip">Neural Interface ASIC</span>
-        <span class="aion-chip">Data Converters (ΔΣ / SAR)</span>
         <span class="aion-chip">Physical AI Sensor IC</span>
+        <span class="aion-chip">Data Converters (ΔΣ / SAR)</span>
         <span class="aion-chip">Process-in-Memory</span>
       </div>
 
@@ -27,7 +27,7 @@ title: Home
       </p>
 
       <p class="small">
-        Director: <b>Yoontae Jung</b> · Dept. of Semiconductor Engineering / Electrical Engineering, KHU
+        Director: <b>Yoontae Jung</b> · Dept. of Semiconductor Engineering / College of Electronics & Informations, KHU
       </p>
     </div>
 
@@ -59,5 +59,5 @@ title: Home
 </div>
 
 ## Open Positions
-We are looking for motivated PhD/MS students with interest in **analog/mixed-signal IC design**.
+We are looking for motivated PhD/MS students with interest in **analog/mixed-signal IC design, PIM, various circuit areas**.
 Please email your CV and brief research interests to <a href="mailto:yoontaejake.jung@khu.ac.kr">yoontaejake.jung@khu.ac.kr</a>.
