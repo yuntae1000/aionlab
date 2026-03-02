@@ -2,8 +2,16 @@
 layout: page
 title: Publications
 ---
-**Google Scholar:** https://scholar.google.co.kr/citations?user=oYBU_jkAAAAJ&hl=en  
-
+<div class="aion-card" style="margin-bottom:22px;">
+  <h3>Google Scholar</h3>
+  <p>
+    Full publication list, citation metrics, and h-index are available on my
+    <a href="https://scholar.google.co.kr/citations?user=oYBU_jkAAAAJ&hl=en"
+       target="_blank">
+       Google Scholar profile
+    </a>.
+  </p>
+</div>
 Selected Publications
 
 ## Journals
