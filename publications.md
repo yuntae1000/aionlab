@@ -2,8 +2,9 @@
 layout: page
 title: Publications
 ---
+**Google Scholar:** https://scholar.google.co.kr/citations?user=oYBU_jkAAAAJ&hl=en  
 
-(∗: equally contributed) — Selected list from CV. :contentReference[oaicite:7]{index=7}
+Selected Publications
 
 ## Journals
 1. K. Park, H. Jeong, **Yoontae Jung**, et al., “Using biopotential and bio-impedance for intuitive human–robot interaction”, *Nature Reviews Electrical Engineering*, Jul. 2025.
