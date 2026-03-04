@@ -36,7 +36,7 @@ title: Home
       <ul>
         <li>2026 — AION Lab launching at KHU</li>
         <li>Recruiting PhD/MS students (Analog/Mixed-Signal, Neural Interface, CIM/PIM)</li>
-        <li>Add: grants, talks, and lab updates</li>
+        <li>TBA: grants, talks, and lab updates</li>
       </ul>
     </div>
   </div>
