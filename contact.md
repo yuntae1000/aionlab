@@ -3,7 +3,7 @@ layout: page
 title: Contact
 ---
 
-**AION Lab (AI-On-Chip Neuro-Intelligent Circuits Laboratory)**  
+**AION Lab (Analog Intelligence On-Chip Neural Circuits Lab.)**  
 Kyung Hee University (KHU), College of Electronics & Information, Dept. of Semiconductor Engineering.
 
 - Email: [yoontaejake.jung@khu.ac.kr](mailto:yoontaejake.jung@khu.ac.kr)
