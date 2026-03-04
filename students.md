@@ -6,11 +6,11 @@ permalink: /people/students/
 
 ## Graduate Students
 
-<div style="display:flex; gap:20px; align-items:center; margin-bottom:25px;">
+<div markdown="1" style="display:flex; gap:20px; align-items:center; margin-bottom:25px;">
 
 <img src="{{ '/assets/people/iwantyou.jpg' | relative_url }}" width="150">
 
-<div>
+<div markdown="1">
 
 ### Recruiting PhD / MS Students
 
@@ -21,7 +21,7 @@ AION Lab is looking for highly motivated graduate students interested in:
 - Physical AI Sensor Interface IC  
 - Compute-in-Memory / AI Hardware  
 
-Please send your **CV and transcript** to:
+Please contact:
 
 yoontaejake.jung@khu.ac.kr
 
@@ -33,20 +33,20 @@ yoontaejake.jung@khu.ac.kr
 
 ## Undergraduate Students
 
-<div style="display:flex; gap:20px; align-items:center; margin-bottom:25px;">
+<div markdown="1" style="display:flex; gap:20px; align-items:center; margin-bottom:25px;">
 
 <img src="{{ '/assets/people/iwantyou.jpg' | relative_url }}" width="150">
 
-<div>
+<div markdown="1">
 
 ### Undergraduate Research Opportunities
 
-AION Lab welcomes undergraduate students who are interested in gaining research experience in:
+AION Lab welcomes undergraduate students interested in gaining research experience in:
 
-- Analog/Mixed Circuit Design  
-- Physical AI Sensor Interface System
-- Biomedical System
-- Compute-in-Memory / AI Hardware and Edge Computing  
+- Analog / Mixed-Signal Circuit Design
+- Biomedical Circuit Design
+- Physical AI Sensor Interface Circuits  
+- AI Hardware and Edge Computing  
 
 Please contact:
 
@@ -56,5 +56,4 @@ yoontaejake.jung@khu.ac.kr
 
 </div>
 
-
-
+---
