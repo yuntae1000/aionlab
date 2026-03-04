@@ -1,8 +1,13 @@
 <header class="site-header" role="banner">
   <div class="wrapper">
-    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">
-      {{ site.title | escape }}
-    </a>
+      <a class="site-title site-title-logo" rel="author" href="{{ '/' | relative_url }}">
+        <img
+          src="{{ '/assets/images/aionlab.png' | relative_url }}"
+          alt="AION Lab Logo"
+          class="site-logo"
+        />
+        <span class="site-title-text">{{ site.title | escape }}</span>
+      </a>
 
     <nav class="site-nav">
       <input type="checkbox" id="nav-trigger" class="nav-trigger" />
