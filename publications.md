@@ -21,6 +21,8 @@ title: Publications
 
 1. K. Park, H. Jeong, **Yoontae Jung**, J.-H. Suh, M. Je, and J. Kim, “Using biopotential and bio-impedance for intuitive human–robot interaction”, *Nature Reviews Electrical Engineering*, Jul. 2025.
 
+1. Y. Kim, C. Seok, **Yoontae Jung**, S.-J. Kweon, S. Ha, and M. Je, "A Montion-Artifact-Tolerant Biopotential-Recording IC with a Digital-Assisted Loop," *IEEE Transactions on Biomedical Circuits and Systems*, Jan. 2025.
+
 1. D. Youn, Y. Kim, I. Choi, **Yoontae Jung**, H. Jeon, K. Lee, S.-J. Kweon, S. Ha, and M. Je, “A Wide-Dynamic-Range, DC-Coupled, Time-Based Neural-Recording IC With Optimized CCO Frequency”, *IEEE Access*, Jul. 2024.
 
 1. **Yoontae Jung**, Sein Oh, S. Ha, and M. Je, “A 187-dB FoMS Power-Efficient Second-Order Highpass Delta-Sigma Capacitance-to-Digital Converter”, *IEEE Journal of Solid-State Circuits*, Apr. 2024.
