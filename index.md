@@ -51,7 +51,7 @@ title:
 </div>
 
 
-<div style="background:#f3f4f6; padding:28px 32px; border-radius:16px; margin:0 0 36px 0;">
+<div markdown="1" style="background:#f3f4f6; padding:28px 32px; border-radius:16px; margin:0 0 36px 0;">
 
 ## Research Focus
 
@@ -75,7 +75,7 @@ title:
 </div>
 
 
-<div style="background:#f3f4f6; padding:28px 32px; border-radius:16px; margin:0 0 36px 0;">
+<div markdown="1" style="background:#f3f4f6; padding:28px 32px; border-radius:16px; margin:0 0 36px 0;">
 
 ## Open Positions
 
