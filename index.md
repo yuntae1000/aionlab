@@ -1,56 +1,65 @@
 ---
 layout: page
-title: Home
+title:
 ---
+
 <div style="text-align:center; margin-top:30px; margin-bottom:30px;">
   <img src="{{ '/assets/images/aionlab_logo.png' | relative_url }}" 
        alt="AION Lab Logo"
        style="width:320px;">
 </div>
 
+<div style="background:#f3f4f6; padding:32px; border-radius:16px; margin:20px 0 36px 0;">
 
-<div class="aion-hero">
-  <div class="aion-grid">
-    <div>
-      <h1>  AION Lab <br>
-  <span>Analog Intelligence On-Chip Neurocircuit Lab</span>
-      </h1>
-      <p class="aion-sub">
-        AION Lab at <b>Kyung Hee University (KHU)</b> develops <b>AI-optimized analog/mixed-signal ICs</b> and
-        <b>neural interface system ICs</b> for real-world sensing and on-chip intelligence.
-      </p>
+  <div class="aion-hero" style="margin-bottom:0; border-bottom:none; padding-top:0; padding-bottom:0; background:transparent;">
+    <div class="aion-grid">
 
-      <div class="aion-chips">
-        <span class="aion-chip">Analog / Mixed-Signal IC</span>
-        <span class="aion-chip">Neural Interface ASIC</span>
-        <span class="aion-chip">Physical AI Sensor IC</span>
-        <span class="aion-chip">Data Converters (ΔΣ / SAR)</span>
-        <span class="aion-chip">Process-in-Memory</span>
+      <div>
+        <h1>
+          AION Lab <br>
+          <span>Analog Intelligence On-Chip Neural Circuit Lab</span>
+        </h1>
+
+        <p class="aion-sub">
+          AION Lab at <b>Kyung Hee University (KHU)</b> develops <b>AI-optimized analog/mixed-signal ICs</b> and
+          <b>neural interface system ICs</b> for real-world sensing and on-chip intelligence.
+        </p>
+
+        <div class="aion-chips">
+          <span class="aion-chip">Analog / Mixed-Signal IC</span>
+          <span class="aion-chip">Neural Interface ASIC</span>
+          <span class="aion-chip">Physical AI Sensor IC</span>
+          <span class="aion-chip">Data Converters (ΔΣ / SAR)</span>
+          <span class="aion-chip">Process-in-Memory</span>
+        </div>
+
+        <p>
+          <a class="aion-btn primary" href="contact">Contact</a>
+          <a class="aion-btn" href="people">Join AION Lab</a>
+          <a class="aion-btn" href="publications">Selected Publications</a>
+        </p>
+
+        <p class="small">
+          PI: <b>Yoontae Jung</b> · Dept. of Semiconductor Engineering / College of Electronics & Informations, KHU
+        </p>
       </div>
 
-      <p>
-        <a class="aion-btn primary" href="contact">Contact</a>
-        <a class="aion-btn" href="people">Join AION Lab</a>
-        <a class="aion-btn" href="publications">Selected Publications</a>
-      </p>
+      <div class="aion-card">
+        <h2 style="margin-top:0; margin-bottom:14px;">News</h2>
+        <ul style="font-size:1.08rem; line-height:1.8; margin-bottom:0;">
+          <li>2026 — AION Lab launching at KHU</li>
+          <li>Recruiting PhD/MS students (Analog/Mixed-Signal, Neural Interface, CIM/PIM)</li>
+          <li>TBA: grants, talks, and lab updates</li>
+        </ul>
+      </div>
 
-      <p class="small">
-        PI: <b>Yoontae Jung</b> · Dept. of Semiconductor Engineering / College of Electronics & Informations, KHU
-      </p>
-    </div>
-
-    <div class="aion-card">
-      <h3>News</h3>
-      <ul>
-        <li>2026 — AION Lab launching at KHU</li>
-        <li>Recruiting PhD/MS students (Analog/Mixed-Signal, Neural Interface, CIM/PIM)</li>
-        <li>TBA: grants, talks, and lab updates</li>
-      </ul>
     </div>
   </div>
+
 </div>
 
 ## Research Focus
+
 <div class="aion-cards">
   <div class="aion-card">
     <h3>Neural Interface IC</h3>
@@ -67,5 +76,5 @@ title: Home
 </div>
 
 ## Open Positions
-We are looking for motivated Undergraduate, PhD/MS students with interest in **analog/mixed-signal IC design, PIM, various circuit areas**.
-Please email with brief research interests to <a href="mailto:yoontaejake.jung@khu.ac.kr">yoontaejake.jung@khu.ac.kr</a>.
+
+We are looking for motivated Undergraduate, PhD/MS students with interest in **analog/mixed-signal IC design, PIM, various circuit areas**. Please email with brief research interests to <a href="mailto:yoontaejake.jung@khu.ac.kr">yoontaejake.jung@khu.ac.kr</a>.
