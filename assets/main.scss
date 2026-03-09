@@ -11,7 +11,7 @@
 }
 
 /* ==================================
-   1) BODY + CONTENT = WHITE (ALL PAGES)
+   1) BODY + CONTENT = WHITE
    ================================== */
 
 html, body{
@@ -41,7 +41,7 @@ a{
 }
 
 /* ==================================
-   2) TOP NAV BAR = DARK ONLY
+   2) TOP NAV BAR
    ================================== */
 
 .site-header{
@@ -54,6 +54,11 @@ a{
   background: transparent !important;
 }
 
+.site-header,
+.site-header .wrapper{
+  background: var(--aion-dark) !important;
+}
+
 .site-title,
 .site-nav .page-link{
   color: #ffffff !important;
@@ -62,12 +67,6 @@ a{
 .site-nav .page-link:hover{
   color: var(--aion-accent) !important;
   text-decoration: none;
-}
-
-/* ===== Fix: keep header bar fully dark ===== */
-.site-header,
-.site-header .wrapper{
-  background: var(--aion-dark) !important;
 }
 
 /* ==================================
@@ -79,27 +78,16 @@ a{
   display: inline-block;
 }
 
-.dropdown-top{
-  display: flex;
-  align-items: center;
-  gap: 4px;
-}
-
+/* 체크박스는 항상 숨김 */
 .people-trigger{
-  display: none;
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
 }
 
+/* 데스크탑에서는 화살표 숨김 */
 .dropdown-arrow-label{
-  color: #ffffff;
-  cursor: pointer;
-  font-size: 0.9rem;
-  line-height: 1;
-  user-select: none;
-  padding: 0 2px;
-}
-
-.dropdown-arrow-label:hover{
-  color: var(--aion-accent);
+  display: none;
 }
 
 .site-nav .trigger .dropdown .dropdown-menu{
@@ -114,9 +102,10 @@ a{
   box-shadow: 0 14px 30px rgba(0,0,0,.35);
   display: none;
   z-index: 999;
+  margin-top: 6px;
 }
 
-/* 데스크탑에서는 hover 시 드롭다운 */
+/* People 위치 그대로, 아래로 자연스럽게 펼침 */
 .site-nav .trigger .dropdown:hover .dropdown-menu,
 .site-nav .trigger .dropdown:focus-within .dropdown-menu{
   display: block;
@@ -174,18 +163,25 @@ a{
   .site-nav .trigger .dropdown{
     display: block;
     width: 100%;
+    position: relative;
   }
 
-  .dropdown-top{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
+  /* 모바일에서는 People + 화살표를 양쪽 정렬 */
+  .dropdown{
+    display: block;
+  }
+
+  .dropdown-link{
+    display: inline-block;
+    width: calc(100% - 24px);
   }
 
   .dropdown-arrow-label{
     display: inline-block;
-    padding: 4px 0 4px 8px;
+    width: 20px;
+    text-align: right;
+    cursor: pointer;
+    user-select: none;
   }
 
   .site-nav .trigger .dropdown .dropdown-menu{
@@ -199,7 +195,6 @@ a{
     background: transparent;
   }
 
-  /* 모바일에서는 화살표 클릭 시에만 펼침 */
   .people-trigger:checked ~ .dropdown-menu{
     display: block;
   }
