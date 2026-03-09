@@ -4,6 +4,7 @@
 @import "minima";
 
 /* ===== Color Variables ===== */
+
 :root{
   --aion-accent: #22d3ee;
   --aion-dark: #0b1020;
@@ -11,166 +12,233 @@
 }
 
 /* ==================================
-   1) BODY + CONTENT = WHITE
+   BODY / CONTENT
    ================================== */
 
 html, body{
-  background: #ffffff !important;
-  color: #111111 !important;
+  background:#ffffff !important;
+  color:#111111 !important;
 }
 
 .page-content{
-  background: #ffffff !important;
-  color: #111111 !important;
-  min-height: 70vh;
+  background:#ffffff !important;
+  color:#111111 !important;
+  min-height:70vh;
 }
 
 .page-content .post-content,
 .page-content .page-content{
-  background: #ffffff !important;
-  color: #111111 !important;
+  background:#ffffff !important;
 }
 
 .page-content p,
 .page-content li{
-  color: #333333 !important;
+  color:#333333 !important;
 }
 
 a{
-  color: var(--aion-accent);
+  color:var(--aion-accent);
 }
 
+
 /* ==================================
-   2) TOP NAV BAR
+   HEADER / NAV BAR
    ================================== */
 
 .site-header{
-  border-top: 0;
-  background: var(--aion-dark) !important;
-  backdrop-filter: blur(10px);
+  border-top:0;
+  background:var(--aion-dark) !important;
+  backdrop-filter:blur(10px);
 }
 
 .site-header .wrapper{
-  background: transparent !important;
+  background:transparent !important;
 }
 
 .site-header,
 .site-header .wrapper{
-  background: var(--aion-dark) !important;
+  background:var(--aion-dark) !important;
 }
 
 .site-title,
 .site-nav .page-link{
-  color: #ffffff !important;
+  color:#ffffff !important;
 }
 
 .site-nav .page-link:hover{
-  color: var(--aion-accent) !important;
-  text-decoration: none;
+  color:var(--aion-accent) !important;
+  text-decoration:none;
 }
 
+
 /* ==================================
-   3) DESKTOP PEOPLE DROPDOWN
+   DESKTOP PEOPLE DROPDOWN
    ================================== */
 
 .site-nav .trigger .dropdown{
-  position: relative;
-  display: inline-block;
+  position:relative;
+  display:inline-block;
+
+  /* hover bridge */
+  padding-bottom:10px;
 }
 
-.site-nav .trigger .dropdown .dropdown-menu{
-  position: absolute;
-  top: 100%;
-  left: 0;
-  min-width: 180px;
-  padding: 8px;
-  border-radius: 12px;
-  background: var(--aion-dark);
-  border: 1px solid var(--aion-border);
-  box-shadow: 0 14px 30px rgba(0,0,0,.35);
-  display: none;
-  z-index: 999;
-  margin-top: 6px;
+/* invisible hover bridge */
+.site-nav .trigger .dropdown::after{
+  content:"";
+  position:absolute;
+  left:0;
+  top:100%;
+  width:100%;
+  height:10px;
 }
+
+/* dropdown box */
+
+.site-nav .trigger .dropdown .dropdown-menu{
+
+  position:absolute;
+
+  top:calc(100% - 2px);
+
+  left:0;
+
+  min-width:180px;
+
+  padding:8px;
+
+  border-radius:12px;
+
+  background:var(--aion-dark);
+
+  border:1px solid var(--aion-border);
+
+  box-shadow:0 14px 30px rgba(0,0,0,.35);
+
+  display:none;
+
+  z-index:999;
+
+  margin-top:0;
+}
+
+/* hover show */
 
 .site-nav .trigger .dropdown:hover .dropdown-menu,
 .site-nav .trigger .dropdown:focus-within .dropdown-menu{
-  display: block;
+
+  display:block;
+
 }
 
+/* dropdown item */
+
 .site-nav .trigger .dropdown .dropdown-item{
-  display: block;
-  padding: 9px 12px;
-  border-radius: 8px;
-  color: #ffffff !important;
-  text-decoration: none !important;
+
+  display:block;
+
+  padding:9px 12px;
+
+  border-radius:8px;
+
+  color:#ffffff !important;
+
+  text-decoration:none !important;
+
 }
 
 .site-nav .trigger .dropdown .dropdown-item:hover{
-  background: rgba(255,255,255,.08);
-  color: var(--aion-accent) !important;
-}
 
-/* mobile static submenu hidden on desktop */
-.mobile-submenu{
-  display: none;
+  background:rgba(255,255,255,.08);
+
+  color:var(--aion-accent) !important;
+
 }
 
 /* ==================================
-   4) MOBILE NAV
+   MOBILE NAV
    ================================== */
 
-@media (max-width: 768px){
+@media (max-width:768px){
 
   .site-nav{
-    background: var(--aion-dark) !important;
+
+    background:var(--aion-dark) !important;
+
   }
 
   .site-nav .trigger{
-    background: var(--aion-dark) !important;
-    border: 1px solid var(--aion-border);
-    padding: 12px 14px;
+
+    background:var(--aion-dark) !important;
+
+    border:1px solid var(--aion-border);
+
+    padding:12px 14px;
+
   }
 
   .site-title,
   .site-nav .page-link,
   .dropdown-link,
   .dropdown-item{
-    color: #ffffff !important;
+
+    color:#ffffff !important;
+
   }
 
   .site-nav .page-link:hover,
-  .dropdown-link:hover,
   .dropdown-item:hover{
-    color: var(--aion-accent) !important;
-    text-decoration: none;
+
+    color:var(--aion-accent) !important;
+
+    text-decoration:none;
+
   }
 
   .site-nav .menu-icon svg path{
-    fill: #ffffff;
+
+    fill:#ffffff;
+
   }
 
   .site-nav .trigger .dropdown{
-    display: block;
-    width: 100%;
-    position: static;
+
+    display:block;
+
+    width:100%;
+
+    position:static;
+
   }
 
-  /* mobile에서는 hover dropdown 숨김 */
+  /* hide desktop dropdown */
+
   .site-nav .trigger .dropdown .dropdown-menu{
-    display: none !important;
+
+    display:none !important;
+
   }
 
-  /* mobile에서는 static submenu 표시 */
+  /* mobile submenu */
+
   .mobile-submenu{
-    display: block;
-    margin-top: 2px;
-    margin-left: 0;
+
+    display:block;
+
+    margin-top:2px;
+
   }
 
   .mobile-subitem{
-    display: block;
-    padding: 4px 0 4px 0 !important;
-    color: rgba(255,255,255,.92) !important;
+
+    display:block;
+
+    padding:4px 0;
+
+    padding-left:18px;
+
+    color:rgba(255,255,255,.92) !important;
+
   }
+
 }
