@@ -21,7 +21,7 @@ AION Lab focuses on **analog/mixed-signal ICs, neural interface system ICs, phys
          alt="Neural Interface System IC"
          style="max-width:100%; border-radius:12px;">
   </div>
-</div>
+
 
   </div>
 
@@ -30,7 +30,7 @@ AION Lab focuses on **analog/mixed-signal ICs, neural interface system ICs, phys
          alt="Neural Interface System IC"
          style="max-width:100%; border-radius:12px;">
   </div>
-</div>
+
 
 <div style="display:flex; gap:24px; align-items:flex-start; flex-wrap:wrap; margin:32px 0;">
   <div style="flex:1; min-width:280px;" markdown="1">
