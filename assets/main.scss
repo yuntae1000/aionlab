@@ -14,33 +14,28 @@
    1) BODY + CONTENT = WHITE (ALL PAGES)
    ================================== */
 
-/* 전체 배경은 흰색 */
 html, body{
   background: #ffffff !important;
   color: #111111 !important;
 }
 
-/* 본문 영역만 흰색으로 강제 (header 제외) */
 .page-content{
   background: #ffffff !important;
   color: #111111 !important;
   min-height: 70vh;
 }
 
-/* Minima가 글 본문에 쓰는 영역 */
 .page-content .post-content,
 .page-content .page-content{
   background: #ffffff !important;
   color: #111111 !important;
 }
 
-/* 텍스트 컬러 */
 .page-content p,
 .page-content li{
   color: #333333 !important;
 }
 
-/* 링크 색 */
 a{
   color: var(--aion-accent);
 }
@@ -51,16 +46,14 @@ a{
 
 .site-header{
   border-top: 0;
-  background: var(--aion-dark) !important; /* 헤더 배경 다크 고정 */
+  background: var(--aion-dark) !important;
   backdrop-filter: blur(10px);
 }
 
-/* 헤더 안 wrapper가 흰색으로 덮이지 않게 */
 .site-header .wrapper{
   background: transparent !important;
 }
 
-/* 메뉴 글자 */
 .site-title,
 .site-nav .page-link{
   color: #ffffff !important;
@@ -71,8 +64,14 @@ a{
   text-decoration: none;
 }
 
+/* ===== Fix: keep header bar fully dark ===== */
+.site-header,
+.site-header .wrapper{
+  background: var(--aion-dark) !important;
+}
+
 /* ==================================
-   3) PEOPLE DROPDOWN (DESKTOP HOVER)
+   3) DESKTOP DROPDOWN
    ================================== */
 
 .site-nav .trigger .dropdown{
@@ -80,7 +79,29 @@ a{
   display: inline-block;
 }
 
-/* 기본 숨김 */
+.dropdown-top{
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.people-trigger{
+  display: none;
+}
+
+.dropdown-arrow-label{
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 0.9rem;
+  line-height: 1;
+  user-select: none;
+  padding: 0 2px;
+}
+
+.dropdown-arrow-label:hover{
+  color: var(--aion-accent);
+}
+
 .site-nav .trigger .dropdown .dropdown-menu{
   position: absolute;
   top: 100%;
@@ -95,7 +116,7 @@ a{
   z-index: 999;
 }
 
-/* hover 시 표시 */
+/* 데스크탑에서는 hover 시 드롭다운 */
 .site-nav .trigger .dropdown:hover .dropdown-menu,
 .site-nav .trigger .dropdown:focus-within .dropdown-menu{
   display: block;
@@ -115,24 +136,75 @@ a{
 }
 
 /* ==================================
-   4) MOBILE: submenu always visible
+   4) MOBILE NAV
    ================================== */
 
 @media (max-width: 768px){
+
+  .site-nav{
+    background: var(--aion-dark) !important;
+  }
+
+  .site-nav .trigger{
+    background: var(--aion-dark) !important;
+    border: 1px solid var(--aion-border);
+    padding: 12px 14px;
+  }
+
+  .site-title,
+  .site-nav .page-link,
+  .dropdown-link,
+  .dropdown-arrow-label,
+  .dropdown-item{
+    color: #ffffff !important;
+  }
+
+  .site-nav .page-link:hover,
+  .dropdown-link:hover,
+  .dropdown-arrow-label:hover,
+  .dropdown-item:hover{
+    color: var(--aion-accent) !important;
+    text-decoration: none;
+  }
+
+  .site-nav .menu-icon svg path{
+    fill: #ffffff;
+  }
+
   .site-nav .trigger .dropdown{
     display: block;
+    width: 100%;
   }
+
+  .dropdown-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .dropdown-arrow-label{
+    display: inline-block;
+    padding: 4px 0 4px 8px;
+  }
+
   .site-nav .trigger .dropdown .dropdown-menu{
+    display: none;
     position: static;
     margin-top: 6px;
+    margin-left: 12px;
+    padding: 4px 0 0 0;
     box-shadow: none;
-    display: block; /* 모바일은 항상 보이게 */
+    border: none;
+    background: transparent;
+  }
+
+  /* 모바일에서는 화살표 클릭 시에만 펼침 */
+  .people-trigger:checked ~ .dropdown-menu{
+    display: block;
+  }
+
+  .site-nav .trigger .dropdown .dropdown-item{
+    padding: 6px 0;
   }
 }
-
-/* ===== Fix: keep header bar fully dark (including wrapper) ===== */
-.site-header,
-.site-header .wrapper{
-  background: var(--aion-dark) !important;
-}
-
