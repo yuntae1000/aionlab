@@ -21,17 +21,9 @@ title:
         </h1>
 
         <p class="aion-sub">
-          AION Lab at <b>Kyung Hee University (KHU)</b> develops <b>AI-optimized analog/mixed-signal ICs</b> and
-          <b>neural interface system ICs</b> for real-world sensing and on-chip intelligence.
+          AION Lab at <b>Kyung Hee University (KHU)</b> develops <b>analog/mixed-signal ICs</b>,
+          <b>neural interface system ICs</b>, and <b>AI circuits</b> for real-world sensing and on-chip intelligence.
         </p>
-
-        <div class="aion-chips">
-          <span class="aion-chip">Analog / Mixed-Signal IC</span>
-          <span class="aion-chip">Neural Interface ASIC</span>
-          <span class="aion-chip">Physical AI Sensor IC</span>
-          <span class="aion-chip">Data Converters (ΔΣ / SAR)</span>
-          <span class="aion-chip">Process-in-Memory</span>
-        </div>
 
         <p>
           <a class="aion-btn primary" href="contact">Contact</a>
@@ -40,7 +32,7 @@ title:
         </p>
 
         <p class="small">
-          PI: <b>Yoontae Jung</b> · Dept. of Semiconductor Engineering / College of Electronics & Informations, KHU
+          Principal Investigator: <b>Yoontae Jung</b> · College of Electronics & Informations, KHU
         </p>
       </div>
 
@@ -58,6 +50,9 @@ title:
 
 </div>
 
+
+<div style="background:#f3f4f6; padding:28px 32px; border-radius:16px; margin:0 0 36px 0;">
+
 ## Research Focus
 
 <div class="aion-cards">
@@ -65,16 +60,46 @@ title:
     <h3>Neural Interface IC</h3>
     <p>High-density, low-power recording/stimulation ICs and closed-loop neuromodulation circuits.</p>
   </div>
+
   <div class="aion-card">
     <h3>Data Converters</h3>
     <p>ΔΣ ADC / NS-SAR / time-based architectures for robust, low-noise sensor readout.</p>
   </div>
+
   <div class="aion-card">
     <h3>Physical AI Sensor IC & PIM</h3>
     <p>Energy-efficient sensor interfaces and process/compute-in-memory for edge intelligence.</p>
   </div>
 </div>
 
+</div>
+
+
+<div style="background:#f3f4f6; padding:28px 32px; border-radius:16px; margin:0 0 36px 0;">
+
 ## Open Positions
 
-We are looking for motivated Undergraduate, PhD/MS students with interest in **analog/mixed-signal IC design, PIM, various circuit areas**. Please email with brief research interests to <a href="mailto:yoontaejake.jung@khu.ac.kr">yoontaejake.jung@khu.ac.kr</a>.
+### Graduate Students (PhD / MS)
+
+We are looking for motivated graduate students interested in:
+
+- Analog / Mixed-Signal Integrated Circuit Design  
+- Neural Interface IC and Biomedical Electronics  
+- Data Converters (ΔΣ ADC, SAR ADC, Time-Based ADC)  
+- Compute-in-Memory (CIM / PIM) Architectures  
+- AI Hardware and Edge Intelligence Systems  
+
+### Undergraduate Researchers
+
+Undergraduate students interested in research experience in the following areas are welcome to apply:
+
+- Analog Circuit Design  
+- Sensor Interface IC  
+- Neural Recording Systems  
+- Hardware Acceleration for AI  
+
+Interested students should send a brief email including **CV and research interests** to:
+
+**yoontaejake.jung@khu.ac.kr**
+
+</div>
