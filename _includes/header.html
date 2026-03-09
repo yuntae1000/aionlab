@@ -20,15 +20,18 @@
         <a class="page-link" href="{{ '/research' | relative_url }}">Research</a>
         <a class="page-link" href="{{ '/publications' | relative_url }}">Publications</a>
 
+        <!-- Desktop dropdown / Mobile static submenu -->
         <div class="dropdown">
           <a class="page-link dropdown-link" href="{{ '/people' | relative_url }}">People</a>
-
-          <input type="checkbox" id="people-trigger" class="people-trigger" />
-          <label for="people-trigger" class="dropdown-arrow-label">▾</label>
 
           <div class="dropdown-menu">
             <a class="dropdown-item" href="{{ '/people/professor/' | relative_url }}">Professor</a>
             <a class="dropdown-item" href="{{ '/people/students/' | relative_url }}">Students</a>
+          </div>
+
+          <div class="mobile-submenu">
+            <a class="dropdown-item mobile-subitem" href="{{ '/people/professor/' | relative_url }}">&nbsp;&nbsp;Professor</a>
+            <a class="dropdown-item mobile-subitem" href="{{ '/people/students/' | relative_url }}">&nbsp;&nbsp;Students</a>
           </div>
         </div>
 
