@@ -68,6 +68,20 @@ a{
   text-decoration:none;
 }
 
+/* 메뉴 수직 정렬 */
+.site-nav .trigger{
+  display:flex;
+  align-items:center;
+  gap:18px;
+}
+
+.site-nav .page-link{
+  display:inline-block;
+  line-height:1;
+  position:relative;
+  top:2px;
+}
+
 /* ==================================
    DESKTOP PEOPLE DROPDOWN
    ================================== */
@@ -83,7 +97,7 @@ a{
   display:none;
 }
 
-/* hover 끊김 방지용 bridge */
+/* hover bridge */
 .site-nav .trigger .dropdown::after{
   content:"";
   position:absolute;
@@ -137,6 +151,7 @@ a{
   }
 
   .site-nav .trigger{
+    display:block;
     background:var(--aion-dark) !important;
     border:1px solid var(--aion-border);
     padding:12px 14px;
@@ -147,6 +162,12 @@ a{
   .dropdown-link,
   .dropdown-item{
     color:#ffffff !important;
+  }
+
+  .site-nav .page-link{
+    top:0;
+    display:block;
+    line-height:1.5;
   }
 
   .site-nav .page-link:hover,
