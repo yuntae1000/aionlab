@@ -12,7 +12,7 @@ description: Researchers and students of AION Lab, led by Prof. Yoontae (Jake) J
     <div><p class="eyebrow">FACULTY</p><h2>Professor</h2></div>
   </div>
   <article class="faculty-entry">
-    <img src="{{ '/assets/people/jake.jpg' | relative_url }}" alt="Professor Yoontae (Jake) Jung, 정윤태" loading="lazy">
+    <img src="{{ '/assets/people/jake.jpg' | relative_url }}?v=original" alt="Professor Yoontae (Jake) Jung, 정윤태" width="3467" height="4458" loading="lazy">
     <div>
       <h3>Yoontae (Jake) Jung</h3>
       <p class="person-name-ko" lang="ko">정윤태</p>
