@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Yoontae (Jake) Jung (정윤태)
+seo_title: 정윤태 교수 | 경희대학교 전자공학과 · AION Lab
+seo_description: 경희대학교 전자공학과 정윤태 교수(Yoontae Jake Jung)의 연구 분야, 경력, 연구실 AION Lab 소개. 아날로그·혼합신호 집적회로와 신경 인터페이스를 연구합니다.
 permalink: /people/professor/
 body_class: professor-page
 description: Yoontae (Jake) Jung (정윤태), Assistant Professor at Kyung Hee University and principal investigator of AION Lab.
@@ -28,6 +30,7 @@ description: Yoontae (Jake) Jung (정윤태), Assistant Professor at Kyung Hee U
     <p class="eyebrow">ABOUT</p>
     <h2>Biography</h2>
     <p>Yoontae (Jake) Jung (정윤태) is an Assistant Professor in the School of Electronic Engineering at Kyung Hee University and the principal investigator of AION Lab. His research focuses on AI-optimized analog and mixed-signal integrated circuits that bridge real-world sensing with on-chip intelligence.</p>
+    <p lang="ko">정윤태 교수는 경희대학교 전자공학과 조교수이자 AION Lab의 책임교수입니다. 아날로그·혼합신호 집적회로, 신경 인터페이스, 온칩 인공지능 회로를 연구합니다.</p>
     <p>His work spans neural interface system ICs, high-dynamic-range data converters, ultra-low-power sensor front ends, and mixed-signal compute-in-memory architectures.</p>
   </section>
 

@@ -130,6 +130,8 @@ h1, h2, h3, h4 { font-family: "Source Serif 4", Georgia, serif; line-height: 1.1
 }
 .hero-copy h1 em { display: block; color: var(--teal); font-style: italic; font-weight: 400; }
 .hero-lead { max-width: 620px; margin: 25px auto 0; color: var(--muted); font-size: clamp(1rem, 1.35vw, 1.1rem); }
+.hero-affiliation { margin: 16px 0 0; color: var(--muted); font-size: .94rem; }
+.hero-affiliation a { color: var(--teal); font-weight: 700; text-underline-offset: 3px; }
 .hero-art { max-width: 1010px; margin: 52px auto 36px; }
 .hero-art img { display: block; width: 100%; height: 395px; object-fit: cover; object-position: center 68%; }
 .hero-art figcaption { padding: 12px 0 0; color: var(--muted); font-size: .77rem; text-align: right; }

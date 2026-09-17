@@ -2,20 +2,37 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#0b1930">
-  <meta name="description" content="{{ page.description | default: site.description | strip_html | escape }}">
-  <title>{% if page.title %}{{ page.title | escape }} · {% endif %}{{ site.title | escape }}</title>
+  <meta name="description" content="{{ page.seo_description | default: page.description | default: site.description | strip_html | escape }}">
+  <title>{% if page.seo_title %}{{ page.seo_title | escape }}{% elsif page.title %}{{ page.title | escape }} · {{ site.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <link rel="canonical" href="{{ page.url | absolute_url }}">
+  {% if page.body_class == 'home-page' %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": "{{ '/' | absolute_url }}#website",
+    "url": "{{ '/' | absolute_url }}",
+    "name": "AION Lab",
+    "alternateName": "경희대학교 AION Lab",
+    "inLanguage": ["en", "ko"]
+  }
+  </script>
+  {% endif %}
   {% if page.body_class == 'professor-page' %}
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "ProfilePage",
+    "@id": "{{ '/people/professor/' | absolute_url }}#profile",
+    "url": "{{ '/people/professor/' | absolute_url }}",
     "mainEntity": {
       "@type": "Person",
+      "@id": "{{ '/people/professor/' | absolute_url }}#person",
+      "url": "{{ '/people/professor/' | absolute_url }}",
       "name": "Yoontae (Jake) Jung",
       "alternateName": ["Yoontae Jung", "Jake Jung", "정윤태"],
       "jobTitle": "Assistant Professor",
-      "affiliation": { "@type": "CollegeOrUniversity", "name": "Kyung Hee University" },
+      "worksFor": { "@type": "CollegeOrUniversity", "name": "Kyung Hee University", "alternateName": "경희대학교", "url": "https://www.khu.ac.kr/" },
       "image": "{{ '/assets/people/jake.jpg' | absolute_url }}",
       "sameAs": ["https://scholar.google.co.kr/citations?user=oYBU_jkAAAAJ&hl=en"]
     }

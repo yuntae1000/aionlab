@@ -1,7 +1,8 @@
 ---
 layout: default
 body_class: home-page
-description: AION Lab at Kyung Hee University develops analog and mixed-signal circuits for neural interfaces, sensing, and on-chip intelligence.
+seo_title: 경희대 정윤태 교수 연구실 | AION Lab
+description: 경희대학교 전자공학과 정윤태 교수(Yoontae Jake Jung)가 이끄는 AION Lab. 신경 인터페이스, 지능형 센싱, 온칩 AI를 위한 아날로그·혼합신호 집적회로를 연구합니다.
 ---
 
 <section class="home-hero">
@@ -10,6 +11,7 @@ description: AION Lab at Kyung Hee University develops analog and mixed-signal c
       <p class="eyebrow">AION LAB · KYUNG HEE UNIVERSITY</p>
       <h1>Circuits for <em>what matters.</em></h1>
       <p class="hero-lead">Analog and mixed-signal circuits for neural interfaces, intelligent sensing, and on-chip computing.</p>
+      <p class="hero-affiliation" lang="ko">경희대학교 전자공학과 <a href="{{ '/people/professor/' | relative_url }}">정윤태 교수</a> 연구실</p>
     </div>
     <figure class="hero-art">
       <img src="{{ '/assets/images/hero-chip.webp' | relative_url }}" alt="Concept illustration of a silicon chip with circuit traces flowing into neural signal patterns" width="1672" height="941" fetchpriority="high">
