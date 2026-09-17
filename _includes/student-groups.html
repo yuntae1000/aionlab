@@ -1,0 +1,29 @@
+<div class="student-groups">
+  {% for group in site.data.students %}
+  <section class="people-student-group" id="{{ group.id }}" aria-labelledby="{{ group.id }}-title">
+    <div class="student-group-heading">
+      <span aria-hidden="true">{{ group.number }}</span>
+      <div>
+        <h3 id="{{ group.id }}-title">{{ group.title }}</h3>
+        <p>{{ group.description }}</p>
+      </div>
+    </div>
+    {% assign member_count = group.members | size %}
+    <div class="student-member-grid{% if member_count == 1 %} student-member-grid--single{% endif %}">
+      {% for member in group.members %}
+      <article class="student-member{% if group.id == 'under-graduate-students' %} student-member--text-only{% endif %}{% if member.photo %} student-member--with-photo{% endif %}{% if member.featured %} student-member--featured{% endif %}{% if member.poster %} student-member--poster{% endif %}">
+        {% if member.photo %}<img class="student-photo" src="{{ member.photo | relative_url }}" alt="{% if member.photo_alt %}{{ member.photo_alt | escape }}{% else %}Portrait of {{ member.name | escape }}{% endif %}" {% if member.poster %}width="479" height="527"{% else %}width="148" height="178"{% endif %} loading="lazy">{% elsif group.id != 'under-graduate-students' %}<div class="student-avatar" aria-hidden="true">{{ member.mark }}</div>{% endif %}
+        <div class="student-member-copy">
+          {% if member.sample %}<span class="student-placeholder">SAMPLE PROFILE</span>{% endif %}
+          <h4>{% if member.name_ko %}<span lang="ko">{{ member.name_ko }}</span><span class="student-name-en">{{ member.name }}</span>{% else %}{{ member.name }}{% endif %}</h4>
+          {% if member.research %}<p class="student-research">{{ member.research | escape }}</p>{% elsif member.role %}<p class="student-role">{{ member.role }}</p>{% endif %}
+          {% if member.email %}<a class="student-email" href="mailto:{{ member.email }}">{{ member.email }}</a>{% endif %}
+          {% if member.focus %}<p class="student-focus">{{ member.focus }}</p>{% endif %}
+          {% if member.note %}<p class="student-note"{% if member.note_lang %} lang="{{ member.note_lang | escape }}"{% endif %}>{{ member.note | escape }}</p>{% endif %}
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </section>
+  {% endfor %}
+</div>

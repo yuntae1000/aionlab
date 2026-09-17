@@ -1,11 +1,17 @@
 title: AION Lab
 description: Analog Intelligence On-Chip Neural Circuit Lab @ Kyung Hee University
+url: https://aionlab.khu.ac.kr
 theme: minima
+
+plugins:
+  - jekyll-sitemap
 
 header_pages:
   - research.md
   - publications.md
   - people.md
+  - talks.md
+  - photos.md
   - contact.md
 
 minima:

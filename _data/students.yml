@@ -1,0 +1,71 @@
+- id: graduate-students
+  number: "01"
+  title: Graduate Students
+  description: We welcome prospective graduate students to AION Lab.
+  members:
+    - name: Join AION Lab
+      photo: /assets/people/iwantyou.jpg
+      photo_alt: I Want You graduate student recruitment poster
+      poster: true
+      note: 2027년도 전기 대학원생 모집중
+      note_lang: ko
+
+- id: co-supervising-students
+  number: "02"
+  title: Co-supervising Students
+  description: Students working on jointly supervised projects across circuits and systems.
+  members:
+    - name: Jimin Koo
+      name_ko: 구지민
+      role: Ph.D. Student · Co-advising with Prof. Minkyu Je, KAIST
+      focus: Artifact-Tolerant DSM · ECG Classification/Authentication Chip
+      photo: /assets/people/Jimin_Koo.jpg
+
+- id: under-graduate-students
+  number: "03"
+  title: Undergraduate Students
+  description: Undergraduate research and early exploration of integrated circuit design.
+  members:
+    - name: Heetae Lee
+      name_ko: 이희태
+      featured: true
+      email: heetae30@khu.ac.kr
+      research: Mixed Circuits, Level-Crossing ADC
+      photo: /assets/people/heetae-lee.jpg
+      note: Incoming M.S. student · March 2027
+    - name: Seungbo Shim
+      name_ko: 심승보
+      email: tmdqh629@khu.ac.kr
+      research: Spike Detector, Spike Sorting
+    - name: Seunghwan Park
+      name_ko: 박승환
+      email: hwan6632@khu.ac.kr
+      research: Analog&Mixed
+    - name: Chaeyun Kim
+      name_ko: 김채윤
+      email: yunchae89@khu.ac.kr
+      research: Analog&Mixed, Band-Gap Reference
+    - name: Woojin Byun
+      name_ko: 변우진
+      email: byunwoojin1@khu.ac.kr
+      research: Analog&Mixed
+    - name: Myeongcheol Kang
+      name_ko: 강명철
+      email: ysskmc@khu.ac.kr
+      research: Cross-Session SNN Decoder
+    - name: JuYoungPark
+      name_ko: 박주영
+      email: wnndud17@khu.ac.kr
+      research: Lightweight Model-Based Spike Sorting
+    - name: Soomin Kim
+      name_ko: 김수민
+      email: nimsk42@gmail.com
+      research: Data Compression
+    - name: Doyun Kim
+      name_ko: 김도윤
+      email: 77doyun77@gmail.com
+      research: Analog&Mixed
+    - name: Taeho Sohn
+      name_ko: 손태호
+      email: taehosohn0203@gmail.com
+      research: Analog&Mixed

@@ -2,58 +2,15 @@
 layout: page
 title: Students
 permalink: /people/students/
+body_class: students-page
+description: Graduate, co-supervising, and undergraduate students at AION Lab.
 ---
 
-## Graduate Students
+<div class="subpage-back"><a href="{{ '/people' | relative_url }}">← Back to People</a></div>
 
-<div markdown="1" style="display:flex; gap:20px; align-items:center; margin-bottom:25px;">
+{% include student-groups.html %}
 
-<img src="{{ '/assets/people/iwantyou.jpg' | relative_url }}" width="150">
-
-<div markdown="1">
-
-### Recruiting PhD / MS Students
-
-AION Lab is looking for highly motivated graduate students interested in:
-
-- Analog / Mixed-Signal IC Design  
-- Neural Interface IC  
-- Physical AI Sensor Interface IC  
-- Compute-in-Memory / AI Hardware  
-
-Please contact:
-
-yoontaejake.jung@khu.ac.kr
-
-</div>
-
-</div>
-
----
-
-## Undergraduate Students
-
-<div markdown="1" style="display:flex; gap:20px; align-items:center; margin-bottom:25px;">
-
-<img src="{{ '/assets/people/iwantyou.jpg' | relative_url }}" width="150">
-
-<div markdown="1">
-
-### Undergraduate Research Opportunities
-
-AION Lab welcomes undergraduate students interested in gaining research experience in:
-
-- Analog / Mixed-Signal Circuit Design
-- Biomedical Circuit Design
-- Physical AI Sensor Interface Circuits  
-- AI Hardware and Edge Computing  
-
-Please contact:
-
-yoontaejake.jung@khu.ac.kr
-
-</div>
-
-</div>
-
----
+<aside class="student-contact-note">
+  <div><p class="eyebrow">JOIN AION LAB</p><h2>Interested in research with us?</h2><p>Send your CV and a short note about your research interests.</p></div>
+  <a href="mailto:yoontaejake.jung@khu.ac.kr">yoontaejake.jung@khu.ac.kr <span aria-hidden="true">→</span></a>
+</aside>

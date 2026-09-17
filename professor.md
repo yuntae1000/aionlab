@@ -1,106 +1,72 @@
 ---
 layout: page
-title: Professor
+title: Yoontae (Jake) Jung (정윤태)
 permalink: /people/professor/
+body_class: professor-page
+description: Yoontae (Jake) Jung (정윤태), Assistant Professor at Kyung Hee University and principal investigator of AION Lab.
 ---
 
-<div style="display:flex; gap:30px; flex-wrap:wrap; align-items:flex-start;">
+<div class="subpage-back"><a href="{{ '/people' | relative_url }}">← Back to People</a></div>
 
+<section class="professor-profile">
+  <img src="{{ '/assets/people/jake.jpg' | relative_url }}" alt="Portrait of Professor Yoontae (Jake) Jung, 정윤태">
   <div>
-    <img src="{{ '/assets/people/jake.jpg' | relative_url }}" alt="Yoontae Jung" width="150"/>
+    <p class="eyebrow">PRINCIPAL INVESTIGATOR</p>
+    <h2>Yoontae (Jake) Jung</h2>
+    <p class="person-name-ko" lang="ko">정윤태</p>
+    <p class="person-role">Assistant Professor · School of Electronic Engineering · Kyung Hee University</p>
+    <p>Analog / Mixed-Signal IC · Neural Interface IC · Data Converters · Physical AI Sensor IC · Process-in-Memory</p>
+    <div class="profile-links">
+      <a class="button button-dark" href="mailto:yoontaejake.jung@khu.ac.kr">Email <span aria-hidden="true">↗</span></a>
+      <a class="button button-outline" href="https://scholar.google.co.kr/citations?user=oYBU_jkAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar <span aria-hidden="true">↗</span></a>
+    </div>
   </div>
+</section>
 
-  <div style="flex:1; min-width:260px;">
-    <h1 style="margin-top:0; margin-bottom:6px;">Yoontae Jung</h1>
-    <p style="margin:0 0 10px;">
-      Assistant Professor<br/>
-      Kyung Hee University (KHU)<br/>
-      <span class="small">Principal Investigator, AION Lab </span>
-    </p>
+<div class="profile-content">
+  <section>
+    <p class="eyebrow">ABOUT</p>
+    <h2>Biography</h2>
+    <p>Yoontae (Jake) Jung (정윤태) is an Assistant Professor in the School of Electronic Engineering at Kyung Hee University and the principal investigator of AION Lab. His research focuses on AI-optimized analog and mixed-signal integrated circuits that bridge real-world sensing with on-chip intelligence.</p>
+    <p>His work spans neural interface system ICs, high-dynamic-range data converters, ultra-low-power sensor front ends, and mixed-signal compute-in-memory architectures.</p>
+  </section>
 
-    <p style="margin:0 0 10px;">
-      <b>Email:</b> <a href="mailto:yoontaejake.jung@khu.ac.kr">yoontaejake.jung@khu.ac.kr</a><br/>
-      <b>Google Scholar:</b> <a href="https://scholar.google.co.kr/citations?user=oYBU_jkAAAAJ&hl=en" target="_blank" rel="noopener">Profile</a><br/>
-    </p>
+  <section>
+    <p class="eyebrow">EXPERIENCE</p>
+    <h2>Career</h2>
+    <div class="timeline-item"><span>2026 – Present</span><div><strong>Assistant Professor</strong><p>School of Electronic Engineering, Kyung Hee University, Korea</p></div></div>
+    <div class="timeline-item"><span>2024 – 2026</span><div><strong>Full-Time Researcher</strong><p>imec, Leuven, Belgium · High-density neural recording IC and mixed-signal integration</p></div></div>
+    <div class="timeline-item"><span>2024</span><div><strong>Postdoctoral Researcher</strong><p>KAIST IMPACT Lab · Multimodal biosignal sensor interface circuits</p></div></div>
+  </section>
 
-    <p style="margin:0;">
-      <b>Research Areas:</b><br/>
-      Analog / Mixed-Signal IC · Neural Interface IC · Data Converters · Physical AI Sensor IC · Process-in-Memory (PIM/CIM)
-    </p>
-  </div>
+  <section>
+    <p class="eyebrow">FOUNDATION</p>
+    <h2>Education</h2>
+    <div class="timeline-item"><span>Ph.D.</span><div><strong>Electrical Engineering, KAIST</strong><p>Analog / Mixed-Signal Integrated Circuits</p></div></div>
+    <div class="timeline-item"><span>M.S.</span><div><strong>Electrical Engineering, KAIST</strong></div></div>
+    <div class="timeline-item"><span>B.S.</span><div><strong>Electrical Engineering, KAIST</strong><p>Minor in Business Management</p></div></div>
+  </section>
 
+  <section>
+    <p class="eyebrow">RECOGNITION</p>
+    <h2>Awards &amp; Honors</h2>
+    <ul class="feature-list">
+      <li>IEEE Solid-State Circuits Society (SSCS) Pre-Doctoral Achievement Award, 2023–2024</li>
+      <li>KAIST Best Research Achievement Award (Kim Choong-Ki Award), 2023</li>
+      <li>National Government-Funded Graduate Fellowship</li>
+    </ul>
+  </section>
+
+  <section>
+    <p class="eyebrow">SERVICE</p>
+    <h2>Professional Activities</h2>
+    <p><strong>Conference service:</strong> Organizing Committee, IEEE Asian Solid-State Circuits Conference (A-SSCC) 2025.</p>
+    <p><strong>Journal reviewer:</strong> IEEE Journal of Solid-State Circuits; IEEE Transactions on Circuits and Systems I and II; IEEE Transactions on Biomedical Circuits and Systems; IEEE Sensors; IEEE Open Journal of Circuits and Systems.</p>
+  </section>
+
+  <section>
+    <p class="eyebrow">OUTLOOK</p>
+    <h2>Research Vision</h2>
+    <p>AION Lab combines deep analog circuit fundamentals, robust mixed-signal architectures, and intelligent system integration to develop scalable, efficient circuits for neural interfaces, sensor-integrated intelligence, and next-generation AI hardware.</p>
+  </section>
 </div>
-
----
-
-## Biography
-
-Yoontae Jung is an Assistant Professor at Kyung Hee University and the P.I. of AION Lab.  
-His research focuses on AI-optimized analog and mixed-signal integrated circuits that bridge real-world sensing with on-chip intelligence.
-
-His work spans neural interface system ICs, high-dynamic-range data converters, ultra-low-power sensor front-ends, and mixed-signal compute-in-memory architectures. He aims to integrate rigorous circuit-level methodologies with scalable AI semiconductor platforms.
-
----
-
-## Career
-
-**2026 – Present**  
-Assistant Professor, Kyung Hee University (KHU), Korea  
-
-**2024 – 2026**  
-Full-Time Researcher, imec, Leuven, Belgium  
-- High-density multi-channel neural recording IC development  
-- Mixed-signal integration (SAR ADC, reference buffer, LDO)  
-
-**2024**  
-Post-Doc Researcher, KAIST (IMPACT Lab)  
-- Multimodal wireless biosignal sensor interface circuits  
-- Industry-collaborative sensor IC development  
-
----
-
-## Education
-
-**Ph.D., Electrical Engineering**  
-KAIST
-Specialization: Analog / Mixed-Signal Integrated Circuits  
-
-**M.S., Electrical Engineering**  
-KAIST
-
-**B.S., Electrical Engineering**  
-KAIST
-Minor: Business Management
-
----
-
-## Awards & Honors
-
-- **IEEE Solid-State Circuits Society (SSCS) Pre-Doctoral Achievement Award 23-24**  
-- **KAIST Best Research Acheivement Award (Kim Choong-Ki Award) 2023**  
-- **National Government-Funded Graduate Fellowship (Full Scholarship Support)**  
-
----
-
-## Professional Activities
-
-**Conference Service**
-- Organizing Committee, IEEE Asian Solid-State Circuits Conference (A-SSCC) 2025  
-
-**Journal Reviewer**
-- IEEE Journal of Solid-State Circuits (JSSC)  
-- IEEE Transactions on Circuits and Systems I, II (TCAS-I, II)  
-- IEEE Transactions on Biomedical Circuits and Systems (TBioCAS)  
-- IEEE Sensors, IEEE Open Journal of Circuits and Systems (OJCAS), and etc.
-
----
-
-## Research Vision
-
-AION Lab seeks to advance the frontier of Analog/Mixed and AI Chip platforms by combining:
-
-- Deep analog circuit fundamentals  
-- Robust mixed-signal architectures  
-- Intelligent system-level integration  
-
-The lab aims to develop scalable, energy-efficient, and reliable circuit solutions for neural interfaces, sensor-integrated intelligence, and next-generation AI hardware systems.

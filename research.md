@@ -1,134 +1,80 @@
 ---
 layout: page
 title: Research
+body_class: research-page
+description: Circuits that connect real-world signals to useful on-chip intelligence.
 ---
 
-<p>
-AION Lab focuses on <strong>analog/mixed-signal ICs, neural interface system ICs, physical AI sensor ICs, and process-in-memory</strong>.
-</p>
-
-
-<div style="display:flex; gap:28px; align-items:flex-start; flex-wrap:wrap; margin:36px 0;">
-
-<div style="flex:1; min-width:280px;">
-
-<h2>1) Neural Interface System IC</h2>
-
-<ul>
-<li>High-density multi-channel neural recording ICs for next-generation neurotechnology</li>
-<li>Artifact-tolerant, wide-dynamic-range front-ends for closed-loop interfaces</li>
-<li>Recording/stimulation/closed-loop circuit architectures</li>
-</ul>
-
+<div class="content-lead">
+  <p class="eyebrow">OUR FOCUS</p>
+  <h2>From sensing to silicon intelligence.</h2>
+  <p>Our research spans analog and mixed-signal integrated circuits, neural interface systems, physical AI sensor ICs, and processing in memory. We bring circuit-level rigor to systems designed for the real world.</p>
 </div>
 
-<div style="flex:1; min-width:280px; text-align:center;">
+<section class="research-row">
+  <div class="research-copy">
+    <span class="research-number">01 / NEURAL SYSTEMS</span>
+    <h2>Neural Interface<br>System IC</h2>
+    <p>Integrated circuits for high-fidelity interaction with the nervous system.</p>
+    <ul class="feature-list">
+      <li>High-density, multi-channel neural recording ICs</li>
+      <li>Artifact-tolerant, wide-dynamic-range front ends</li>
+      <li>Recording, stimulation, and closed-loop architectures</li>
+    </ul>
+  </div>
+  <div class="research-image"><img src="{{ '/assets/images/neural1.png' | relative_url }}" alt="Neural interface system IC research diagram" loading="lazy"></div>
+</section>
 
-<div style="background:#fafafa; padding:20px; border-radius:10px; display:inline-block;">
+<section class="research-row research-row-reverse">
+  <div class="research-copy">
+    <span class="research-number">02 / PHYSICAL AI</span>
+    <h2>Sensor Interface ICs<br>for Physical AI</h2>
+    <p>Low-power sensing circuits that connect physical signals to intelligent systems.</p>
+    <ul class="feature-list">
+      <li>Multimodal wireless biosignal interfaces for wearable robotics</li>
+      <li>Ultra-low-power sensing SoCs</li>
+      <li>Interference-tolerant acquisition circuits</li>
+    </ul>
+  </div>
+  <div class="research-image"><img src="{{ '/assets/images/physical1.png' | relative_url }}" alt="Physical AI sensor interface research diagram" loading="lazy"></div>
+</section>
 
-<img src="{{ '/assets/images/neural1.png' | relative_url }}"
-     alt="Neural Interface System IC"
-     style="width:80%; max-width:360px; height:auto; display:block; margin:0 auto;">
+<section class="research-row">
+  <div class="research-copy">
+    <span class="research-number">03 / DATA CONVERSION</span>
+    <h2>Data Converters<br>for Bio &amp; Sensor Readout</h2>
+    <p>Robust architectures that preserve signal quality from challenging sensors.</p>
+    <ul class="feature-list">
+      <li>ΔΣ ADC, noise-shaping SAR, and time-based readout</li>
+      <li>Dynamic-range enhancement</li>
+      <li>Noise-shaping techniques for reliable acquisition</li>
+    </ul>
+  </div>
+  <div class="research-image"><img src="{{ '/assets/images/dataconverter1.png' | relative_url }}" alt="Data converter research diagram" loading="lazy"></div>
+</section>
 
-</div>
+<section class="research-row research-row-reverse">
+  <div class="research-copy">
+    <span class="research-number">04 / ON-CHIP INTELLIGENCE</span>
+    <h2>Process-in-Memory &amp;<br>Compute-in-Memory</h2>
+    <p>Energy-efficient computation placed closer to where data is created.</p>
+    <ul class="feature-list">
+      <li>Mixed-signal PIM and CIM for edge intelligence</li>
+      <li>Co-design of sensing and on-chip computation</li>
+      <li>Robust operation under circuit non-idealities</li>
+    </ul>
+  </div>
+  <div class="research-image"><img src="{{ '/assets/images/pim1.png' | relative_url }}" alt="Processing in memory research diagram" loading="lazy"></div>
+</section>
 
-</div>
-
-</div>
-
-
-
-<div style="display:flex; gap:28px; align-items:flex-start; flex-wrap:wrap; margin:36px 0;">
-
-<div style="flex:1; min-width:280px;">
-
-<h2>2) Sensor Interface ICs for Physical AI</h2>
-
-<ul>
-<li>Multimodal wireless biosignal sensor interfaces for wearable robotics</li>
-<li>Ultra-low-power sensing SoCs and interference-tolerant acquisition circuits</li>
-</ul>
-
-</div>
-
-<div style="flex:1; min-width:280px; text-align:center;">
-
-<div style="background:#fafafa; padding:20px; border-radius:10px; display:inline-block;">
-
-<img src="{{ '/assets/images/physical1.png' | relative_url }}"
-     alt="Sensor Interface ICs for Physical AI"
-     style="width:90%; max-width:380px; height:auto; display:block; margin:0 auto;">
-
-</div>
-
-</div>
-
-</div>
-
-
-
-<div style="display:flex; gap:28px; align-items:flex-start; flex-wrap:wrap; margin:36px 0;">
-
-<div style="flex:1; min-width:280px;">
-
-<h2>3) Data Converters for Bio/Sensor Readout</h2>
-
-<ul>
-<li>ΔΣ ADC (CT/DT hybrid), NS-SAR, time-based readout architectures</li>
-<li>Dynamic-range enhancement and noise-shaping techniques for robust acquisition</li>
-</ul>
-
-</div>
-
-<div style="flex:1; min-width:280px; text-align:center;">
-
-<div style="background:#fafafa; padding:20px; border-radius:10px; display:inline-block;">
-
-<img src="{{ '/assets/images/dataconverter1.png' | relative_url }}"
-     alt="Data Converters for Bio and Sensor Readout"
-     style="width:80%; max-width:360px; height:auto; display:block; margin:0 auto;">
-
-</div>
-
-</div>
-
-</div>
-
-
-
-<div style="display:flex; gap:28px; align-items:flex-start; flex-wrap:wrap; margin:36px 0;">
-
-<div style="flex:1; min-width:280px;">
-
-<h2>4) Process-in-Memory / Compute-in-Memory</h2>
-
-<ul>
-<li>Energy-efficient mixed-signal PIM/CIM direction for edge intelligence</li>
-<li>Co-design of sensing + on-chip intelligence under non-idealities</li>
-</ul>
-
-</div>
-
-<div style="flex:1; min-width:280px; text-align:center;">
-
-<div style="background:#fafafa; padding:20px; border-radius:10px; display:inline-block;">
-
-<img src="{{ '/assets/images/pim1.png' | relative_url }}"
-     alt="Process-in-Memory and Compute-in-Memory"
-     style="width:70%; max-width:300px; height:auto; display:block; margin:0 auto;">
-
-</div>
-
-</div>
-
-</div>
-
-
-
-<h2>Selected Projects</h2>
-
-<ul>
-<li><strong>imec (2024–2026):</strong> High-density multi-channel neural recording IC (SAR ADC, reference buffer, LDO)</li>
-<li><strong>NRF (2020–2024):</strong> Multimodal wireless sensor interface circuits and flexible biosignal sensors (Project lead)</li>
-<li><strong>Samsung LSI (2018–2023):</strong> Sub-aF capacitive sensor interface for E-Nose + drift compensation techniques</li>
-</ul>
+<section class="projects-section">
+  <div class="section-heading">
+    <div><p class="eyebrow">SELECTED WORK</p><h2>Projects<span class="heading-dot">.</span></h2></div>
+  </div>
+  <div class="project-list">
+    <div><span>2026–2030 · KEIT</span><p><strong>K-온디바이스 AI 반도체 기술 개발 사업</strong><br>5나노 이하 온디바이스 AI 반도체를 위한 고신뢰성 IP 기술개발</p></div>
+    <div><span>2024–2026 · imec</span><p>High-density multi-channel neural recording IC, including SAR ADC, reference buffer, and LDO.</p></div>
+    <div><span>2020–2024 · NRF</span><p>Multimodal wireless sensor interface circuits and flexible biosignal sensors (project lead).</p></div>
+    <div><span>2018–2023 · Samsung LSI</span><p>Sub-aF capacitive sensor interface for E-Nose and drift compensation techniques.</p></div>
+  </div>
+</section>
