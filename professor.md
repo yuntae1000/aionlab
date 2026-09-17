@@ -6,7 +6,7 @@ body_class: professor-page
 description: Yoontae (Jake) Jung (정윤태), Assistant Professor at Kyung Hee University and principal investigator of AION Lab.
 ---
 
-<div class="subpage-back"><a href="{{ '/people' | relative_url }}">← Back to People</a></div>
+<div class="subpage-back"><a href="{{ '/people/' | relative_url }}">← Back to People</a></div>
 
 <section class="professor-profile">
   <img src="{{ '/assets/people/jake.jpg' | relative_url }}" alt="Portrait of Professor Yoontae (Jake) Jung, 정윤태">

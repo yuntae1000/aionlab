@@ -1,6 +1,7 @@
 ---
 layout: page
 title: People
+permalink: /people/
 body_class: people-page
 description: Researchers and students of AION Lab, led by Prof. Yoontae (Jake) Jung (정윤태) at Kyung Hee University.
 ---

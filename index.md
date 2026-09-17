@@ -64,7 +64,7 @@ description: AION Lab at Kyung Hee University develops analog and mixed-signal c
         <span class="news-copy"><small>PUBLICATION</small><strong>Our 128-channel neural digitization and spike sorting SoC appears in IEEE TBCAS.</strong></span>
         <span class="news-arrow" aria-hidden="true">↗</span>
       </a>
-      <a class="news-item" href="{{ '/people' | relative_url }}">
+      <a class="news-item" href="{{ '/people/' | relative_url }}">
         <span class="news-date">2026</span>
         <span class="news-copy"><small>LAB</small><strong>AION Lab opens at Kyung Hee University.</strong></span>
         <span class="news-arrow" aria-hidden="true">↗</span>

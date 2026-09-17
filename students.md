@@ -6,7 +6,7 @@ body_class: students-page
 description: Graduate, co-supervising, and undergraduate students at AION Lab.
 ---
 
-<div class="subpage-back"><a href="{{ '/people' | relative_url }}">← Back to People</a></div>
+<div class="subpage-back"><a href="{{ '/people/' | relative_url }}">← Back to People</a></div>
 
 {% include student-groups.html %}
 
