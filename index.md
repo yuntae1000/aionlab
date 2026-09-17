@@ -55,22 +55,22 @@ description: AION Lab at Kyung Hee University develops analog and mixed-signal c
     </div>
     <div class="news-list">
       <a class="news-item" href="{{ '/publications' | relative_url }}">
-        <span class="news-date">2026</span>
+        <time class="news-date" datetime="2026-07">2026 July</time>
         <span class="news-copy"><small>PUBLICATION · ACCEPTED</small><strong>“IMC-Diff” accepted at IEEE/ACM ICCAD 2026.</strong></span>
         <span class="news-arrow" aria-hidden="true">↗</span>
       </a>
       <a class="news-item" href="{{ '/publications' | relative_url }}">
-        <span class="news-date">2026</span>
+        <time class="news-date" datetime="2026-07">2026 July</time>
         <span class="news-copy"><small>PUBLICATION</small><strong>Our 128-channel neural digitization and spike sorting SoC appears in IEEE TBCAS.</strong></span>
         <span class="news-arrow" aria-hidden="true">↗</span>
       </a>
       <a class="news-item" href="{{ '/people/' | relative_url }}">
-        <span class="news-date">2026</span>
+        <time class="news-date" datetime="2026-03">2026 March</time>
         <span class="news-copy"><small>LAB</small><strong>AION Lab opens at Kyung Hee University.</strong></span>
         <span class="news-arrow" aria-hidden="true">↗</span>
       </a>
       <a class="news-item" href="{{ '/publications' | relative_url }}">
-        <span class="news-date">2025</span>
+        <time class="news-date" datetime="2025-07">2025 July</time>
         <span class="news-copy"><small>PUBLICATION</small><strong>Our work on human–robot interaction appears in Nature Reviews Electrical Engineering.</strong></span>
         <span class="news-arrow" aria-hidden="true">↗</span>
       </a>
