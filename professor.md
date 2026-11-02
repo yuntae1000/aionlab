@@ -63,7 +63,13 @@ description: Yoontae (Jake) Jung (정윤태), Assistant Professor at Kyung Hee U
   <section>
     <p class="eyebrow">SERVICE</p>
     <h2>Professional Activities</h2>
-    <p><strong>Conference service:</strong> Organizing Committee, IEEE Asian Solid-State Circuits Conference (A-SSCC) 2025.</p>
+    <p><strong>Conference service:</strong></p>
+    <ul class="feature-list">
+      <li>Technical Program Committee (TPC), IEEE ICTA 2026</li>
+      <li>Organizing Committee (OC), IEEE BioCAS 2026</li>
+      <li>Organizing Committee (OC), IEEE ICCE-Asia 2026</li>
+      <li>Organizing Committee, IEEE Asian Solid-State Circuits Conference (A-SSCC) 2025</li>
+    </ul>
     <p><strong>Journal reviewer:</strong> IEEE Journal of Solid-State Circuits; IEEE Transactions on Circuits and Systems I and II; IEEE Transactions on Biomedical Circuits and Systems; IEEE Sensors; IEEE Open Journal of Circuits and Systems.</p>
   </section>
 

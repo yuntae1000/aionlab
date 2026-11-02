@@ -11,6 +11,10 @@ description: Selected seminars and talks by Yoontae Jung.
   <p>Lectures, symposia, and research seminars on circuit design and neural interfaces.</p>
 </div>
 
+## 2027
+
+1. **[ICEIC 2027 Tutorial](https://iceic.org/2027/pages/tutorials.vm)** (Hilton Fukuoka Sea Hawk, Fukuoka, Japan) · 25 January 2027 (scheduled) — “Neural Recording ICs for Next-Gen BCIs: High-Density Scalability and Wide Dynamic Range”
+
 ## 2026
 
 1. **2026 대한전자공학회 추계학술대회, YLS 세션** (Gwangju, Gyeonggi-do, Korea) · 27–28 November 2026 (conference dates; proposed talk) — “Low-Power Neural Recording ICs for Brain-Computer Interface” (proposed title)

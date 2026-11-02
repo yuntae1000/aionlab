@@ -18,6 +18,8 @@ description: Selected journal articles, conference papers, and patents from our 
 
 1. G. Yun, H. Choi, **Yoontae Jung**, S. Ha, and M. Je, “[A 9.8-μW 29.5-aF<sub>rms</sub> Continuous-Time Noise-Shaping SAR Capacitance-to-Digital Converter](https://ieeexplore.ieee.org/abstract/document/11717538/)”, *IEEE Transactions on Circuits and Systems II: Express Briefs*, Sep. 2026.
 
+1. Joowon Kim, Jimin Koo, Christopher Santos, Haidam Choi, Yegeun Kim, Chang-Hoon Seok, **Yoontae Jung**, Sohmyung Ha, Soon-Jae Kweon, and Minkyu Je, “A 1.64-Nef Discrete-Time Closed-Loop Series-Parallel Amplifier for Biopotential Recording with 139-VPP Common-Mode Interference Tolerance”, *Proc. IEEE European Solid-State Electronics Research Conference (ESSERC)*, accepted for presentation in Sep. 2026.
+
 1. Donghyeon Yi, Donghwan Kwon, **Yoontae Jung**, Ik-Joon Chang, and Minkyu Je, “IMC-Diff: An Activation-Centric IMC Architecture for True Integer-Only Diffusion Inference”, *IEEE/ACM International Conference on Computer-Aided Design (ICCAD 2026)*, accepted.
 
 1. Y. Chen, X. Xing, X. Yang, **Yoontae Jung**, B. Tacca, M. Verhelst, G. Gielen, and C. M. Lopez, “A 128-Channel Level-Crossing-Based Neural Digitization and Spike Sorting SoC With Compact Spatiotemporal Feature Extraction”, *IEEE Transactions on Biomedical Circuits and Systems*, Jul. 2026.

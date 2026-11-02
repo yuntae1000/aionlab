@@ -62,6 +62,11 @@ description: 경희대학교 전자공학부 정윤태 교수(Yoontae Jake Jung)
         <span class="news-arrow" aria-hidden="true">↗</span>
       </a>
       <a class="news-item" href="{{ '/publications' | relative_url }}">
+        <time class="news-date" datetime="2026-09">2026 September</time>
+        <span class="news-copy"><small>PUBLICATION · ACCEPTED</small><strong>Our 1.64-Nef biopotential-recording amplifier paper accepted for presentation at IEEE ESSERC 2026.</strong></span>
+        <span class="news-arrow" aria-hidden="true">↗</span>
+      </a>
+      <a class="news-item" href="{{ '/publications' | relative_url }}">
         <time class="news-date" datetime="2026-07">2026 July</time>
         <span class="news-copy"><small>PUBLICATION · ACCEPTED</small><strong>“IMC-Diff” accepted at IEEE/ACM ICCAD 2026.</strong></span>
         <span class="news-arrow" aria-hidden="true">↗</span>
